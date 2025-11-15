@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.btn {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color:purple !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  font-size: 2rem !important;
+}
+
+#navBar {
+  background-color: #888;
+}
