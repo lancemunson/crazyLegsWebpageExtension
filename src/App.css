@@ -41,14 +41,36 @@
   color: #888;
 }
 
+body {
+  background-color: rgb(253,251,212) !important;
+}
+
+/* NavBar Style */
+#navBar {
+  background-color: rgb(197, 5, 12);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+}
+
 .btn {
   background-color: transparent !important;
   border-color: transparent !important;
-  color:purple !important;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
   font-size: 2rem !important;
 }
 
-#navBar {
-  background-color: #888;
+.link {
+  color:rgb(253,251,212);
+  text-decoration: none;
+}
+
+.link:hover {
+  color:rgb(161, 2, 13);
+  text-decoration: none;
 }
