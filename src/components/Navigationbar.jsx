@@ -1,9 +1,9 @@
 import { Nav, Button, Navbar, Image } from "react-bootstrap";
 import { HashRouter, Routes, Route, NavLink} from "react-router";
-import Homepage from "./../pages/Homepage";
+import Homepage from "./pages/Homepage";
 import LoginPage from "./pages/LoginPage";
 import Registration from "./pages/registration";
-import Course from "./pages/course";
+import Course from "./pages/Course";
 
 import CrazyLegsLogo from "./../assets/crazyLegsLogo.png";
 

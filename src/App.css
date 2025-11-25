@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -53,6 +52,8 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
 
   display: flex;
   justify-content: space-between;
@@ -79,3 +80,12 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
   font-size: 1.25rem;
 }
+
+#homepageDiv {
+  flex-direction: column;
+}
+
+html, body, #root {
+  width: 100%;
+}
+
